@@ -1,0 +1,40 @@
+#!/usr/bin/perl
+# -----------------------------------------------------------------------
+#
+# mcounter.setup
+#
+# this is the setup file for the scripts 
+# mcounter.pl, mhits.pl and mreset.pl.
+#
+# necessary variables are set up in this file, and then shared
+# by the scripts, using the "require" operator.
+#
+# version 1.01
+#
+# February 17 1997
+#
+# -----------------------------------------------------------------------
+# --- set the correct paths and/or contents for these variables ---------
+# -----------------------------------------------------------------------
+
+$cgi_lib_location = "library/cgi-lib.magic";
+
+$count_file = "/clientdata/n5200-2-static/d/r/drbella.com.au/www/cgi-bin/counter/data/count.txt";
+
+$digit_dir = "/clientdata/counter/digits";
+
+$access_log = "/clientdata/n5200-2-static/d/r/drbella.com.au/www/logs/access_log";
+
+$error_log = "/clientdata/n5200-2-static/d/r/drbella.com.au/www/logs/error_log";
+
+$flyprog = "/usr/local/bin/fly -q";
+
+$fly_temp = "/clientdata/n5200-2-static/d/r/drbella.com.au/www/cgi-bin/counter/data/fly_temp.txt";
+
+$bad_referer_img = "/images/bad_referer.gif";
+
+$webmaster = "webmaster\@drbella.com.au"; # use \@
+
+@referers = ("www.drbella.com.au", "drbella.com.au");
+
+# -----------------------------------------------------------------------	
