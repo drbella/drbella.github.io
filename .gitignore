@@ -1,0 +1,6 @@
+# Ignore IDE and local environment paths
+.idea/
+vagrant/
+# Sublime Text Editor files
+*.sublime-*
+
